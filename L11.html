@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Document Search </title>
+        <meta charset="utf-8">
+        <script src="L11.js"></script>
+    </head>
+    <body> 
+        <p>
+        Search this site:
+        <input type="text" id="txtlookfor" autofocus /> 
+    <!-- Show drop-down list, &nbsp; stands for spacing  -->
+        &nbsp; &nbsp;&nbsp;Choose engine:
+    <!-- create search engine options for users -->
+        <select id="dropdown">
+        <option value="1">Bing</option>
+        <option value="2" selected>Google</option>
+        </select>
+        <input type="button" onclick="search()" value="Go" />
+        </p>
+    </body>
